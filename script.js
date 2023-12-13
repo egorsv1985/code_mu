@@ -1,4 +1,2 @@
-$(":header").css("color", "red");
-$(":header.zzz").css("color", "red");
-$(":header +:header").css("color", "red");
-$(":header.test +:header.test").css("color", "red");
+$(":header:not(.test)").css("color", "red");
+$("h2:not(.test)").css("color", "red");
