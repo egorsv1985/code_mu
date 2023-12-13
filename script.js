@@ -1,1 +1,3 @@
-$("li.www").parent().css("color", "red");
+$("li").each(function (index) {
+  $(this).html(index + 1);
+});
