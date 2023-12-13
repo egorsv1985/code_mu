@@ -1,2 +1,2 @@
-$("h3").css({ color: "green", "font-weight": "bold" });
-$(".test").css("color", "red");
+$("#elem").css("color", "red");
+$("h2.test").css("color", "red");
