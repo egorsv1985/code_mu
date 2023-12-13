@@ -1,2 +1,1 @@
-$("p:empty()").css("color", "red");
-$("div:parent()").css("color", "red");
+$("li.www").parent().css("color", "red");
