@@ -1,2 +1,2 @@
 $("#elem").css("color", "red");
-$(".test i").css("color", "red");
+$("h2> i").css("color", "red");
