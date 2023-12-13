@@ -1,3 +1,3 @@
-$("li").each(function (index) {
-  $(this).html(index + 1);
+$("p").map(function (index) {
+  $(this).attr("id", index + 1);
 });
