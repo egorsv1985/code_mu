@@ -1,1 +1,2 @@
-$("h3").html("!!!");
+let $elems = $("h3");
+$elems.text("!!!");
