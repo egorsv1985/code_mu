@@ -1,1 +1,2 @@
-$("li:contains('text')").css("color", "red");
+$("p:empty()").css("color", "red");
+$("div:parent()").css("color", "red");
