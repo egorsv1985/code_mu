@@ -1,2 +1,1 @@
-let $elems = $("h2");
-$elems.html("<span>!!!</span>");
+$("h3").css("color", "green");
